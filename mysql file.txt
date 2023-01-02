@@ -1,0 +1,14 @@
+create database EmpManage;
+use EmpManage;
+
+create table Employee(id int primary key auto_increment,fname varchar(20),lname varchar(20),department varchar(40),address varchar(200),email varchar(30));
+
+insert into employee(fname,lname,department,address,email) values("vishal","Tyagi","CSE","678/8 CR Park NewDelhi 110019","vishutyagi28@gmail.com");
+
+insert into employee(fname,lname,department,address,email) values("vishu","kumar","HR","233/2 Govindpuri NewDelhi 110019","vishuKumar28@gmail.com");
+
+insert into employee(fname,lname,department,address,email) values("rahul","taneja","IT","678/8 bilspur Chhatisgarh","rahulT@gmail.com");
+
+
+
+select * from employee;
